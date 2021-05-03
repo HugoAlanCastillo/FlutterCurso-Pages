@@ -14,10 +14,11 @@ class HomePageTempDos extends StatelessWidget {
           backgroundColor: Colors.blueGrey[900],
           centerTitle: true),
       body: Center(
-          child: Text(
-        '¡HOLA!',
-        style: TextStyle(fontSize: 25.0),
-      )),
+        child: Text(
+          '¡HOLA!',
+          style: TextStyle(fontSize: 25.0),
+        ),
+      ),
     );
   }
 }

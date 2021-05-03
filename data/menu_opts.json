@@ -1,0 +1,23 @@
+{
+    "nombreApp" : "Componentes",
+    "rutas" : [
+        {
+            "ruta" : "alert",
+            "icon" : "notifications_active",
+            "texto": "Alertas"
+        },
+        {
+            "ruta" : "avatar",
+            "icon" : "run_circle",
+            "texto": "Avatars"
+        },
+        {
+            "ruta" : "card",
+            "icon" : "folder_shared_sharp",
+            "texto": "Cards - Tarjetas"
+        }
+
+
+
+    ]
+}
