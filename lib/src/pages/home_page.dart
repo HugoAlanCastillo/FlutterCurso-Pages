@@ -38,10 +38,23 @@ class HomePage extends StatelessWidget {
           color: Colors.indigo,
         ),
         onTap: () {
-          showDialog(
-            context: context,
-            builder: (BuildContext context) => _dialog(context, otp['texto']),
-          );
+          // showDi.alog(
+          //    context: context,
+          //  builder: (BuildContext context) => _dialog(context, otp['texto']),
+          //);
+
+          /*    final route = MaterialPageRoute(
+            builder: (context) => AlertPage());
+          Navigator.push(context, route);
+
+           */
+/*
+          Navigator.of(context)
+              .push(MaterialPageRoute<Null>(builder: (BuildContext context) {
+            return new AvatarPage();
+          }));
+          */
+          Navigator.pushNamed(context, otp['ruta']);
         },
       );
       opciones..add(widgetTemp)..add(Divider());
