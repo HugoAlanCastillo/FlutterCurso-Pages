@@ -1,0 +1,39 @@
+{
+    "nombreApp" : "Componentes2",
+    "rutas" : [
+        {
+            "ruta" : "alert",
+            "icon" : "notifications_active",
+            "texto": "Alert Dialog"
+        },
+
+        {
+            "ruta" : "simple",
+            "icon" : "run_circle",
+            "texto": "Simple Dialog"
+        },
+
+        {
+            "ruta" : "showm",
+            "icon" : "folder_shared_sharp",
+            "texto": "Show Modal"
+        },
+
+        {
+            "ruta" : "showt",
+            "icon" : "folder_shared_sharp",
+            "texto": "Show Toast"
+        },
+
+        {
+            "ruta" : "dialog",
+            "icon" : "folder_shared_sharp",
+            "texto": "Dialogo Personalizado"
+        }
+
+
+
+        
+
+    ]
+}
