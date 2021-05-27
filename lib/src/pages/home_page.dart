@@ -9,7 +9,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.blueGrey[100],
       appBar: AppBar(
-          title: Text('Hugo Alan Castillo Gonzalez'),
+          title: Text('Cards | Equipo 3'),
           backgroundColor: Colors.blueGrey[900],
           centerTitle: true),
       body: _list(context),
