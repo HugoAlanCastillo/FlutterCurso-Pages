@@ -15,7 +15,7 @@ class CardPage extends StatelessWidget {
         //En el body usaremos el widget "ListView" para que el cuerpo sea en forma de lista
         body: ListView(
           //Lista de Widget. Creamos objetos dentro de un array para usarlo en el widget Card().
-          //Recordemos que la propiedad "children: <Widget>" debe tener un array y dentro de el los widget que se van a mostrar
+          //Recordemos que la propiedad "children: <Widget>" debe tener un array y dentro de el los widget u objetos que se van a mostrar
           children: <Widget>[
             card1(),
             card2(),
