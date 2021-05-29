@@ -1,23 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 
-class GuardarPage extends StatefulWidget {
-  final String _texto;
-  GuardarPage(this._texto);
+class SavePage extends StatefulWidget {
+final String _texto ;
+SavePage(this._texto);
 
   @override
-  _GuardarPageState createState() => _GuardarPageState();
+  _SavePageState createState()=>_SavePageState();
 }
-
-class _GuardarPageState extends State<GuardarPage> {
-  TextEditingController _controller;
-
+class _SavePageState extends State<SavePage>{
+TextEditingController _controller;
   @override
-  void initState() {
-    _controller = TextEditingController(text: widget._texto);
+  void initState(){
+    _controller= TextEditingController(text: widget._texto);
     super.initState();
   }
-
+  
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
@@ -26,13 +24,13 @@ class _GuardarPageState extends State<GuardarPage> {
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
-          children: [
+          children: [  
             TextField(
-              controller: _controller,
-            ),
+            controller:  _controller,
+            ),   
           ],
         ),
-      ),
+      ), 
     );
   }
 }

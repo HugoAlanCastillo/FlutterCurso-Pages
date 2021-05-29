@@ -180,7 +180,7 @@ class AlertPage extends StatelessWidget {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => GuardarPage(_texto)),
+                                builder: (context) => SavePage(_texto)),
                           );
                         },
                         child: Text(

@@ -53,7 +53,7 @@ class CardPage extends StatelessWidget {
         children: <Widget>[
           Image(
             image: NetworkImage(
-                'https://www.ambientum.com/wp-content/uploads/2019/10/montanas-atardecer-696x464.jpg'),
+                'https://services.meteored.com/img/article/felicidades-hoy-es-el-dia-internacional-de-las-montanas-222501-1_768.jpeg'),
           ),
           Container(
             padding: EdgeInsets.all(30),
